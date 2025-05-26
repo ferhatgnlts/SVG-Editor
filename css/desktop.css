@@ -1,0 +1,60 @@
+/* Desktop-specific styles (min-width: 1024px) */
+
+.container {
+    flex-direction: row;
+    height: 100vh;
+}
+
+.controls {
+    flex-direction: column;
+    padding: 20px 15px;
+    width: 60px;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-controls {
+    margin-left: 0;
+    flex-direction: column;
+    width: 100%;
+}
+
+.svg-preview-wrapper {
+    flex: 1;
+    padding: 40px;
+}
+
+.svg-editor {
+    flex: 0 0 350px;
+    border-top: none;
+    border-left: 1px solid #e0e0e0;
+    padding: 20px;
+}
+
+/* Adjust input width for vertical layout */
+input {
+    width: 100%;
+}
+
+/* Stack buttons vertically */
+.theme-toggle, .download-btn {
+    width: 100%;
+    justify-content: center;
+}
+
+/* Adjust preview size for desktop */
+.svg-preview {
+    max-width: 800px;
+    max-height: 800px;
+}
+
+/* Position elements differently on desktop */
+.coordinates-display {
+    top: 20px;
+    left: 20px;
+}
+
+.size-info {
+    bottom: 20px;
+    right: 20px;
+}
