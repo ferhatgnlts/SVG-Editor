@@ -1,4 +1,4 @@
-# Dynamic Grid SVG Viewer
+# SVG Editor (Dynamic Grid SVG Viewer)
 
 A responsive web application for viewing and editing SVG paths on a dynamic grid system with theme support and export functionality.
 
@@ -17,11 +17,11 @@ A responsive web application for viewing and editing SVG paths on a dynamic grid
 ```
 svg-viewer/
 │── index.html          # Main application HTML
-│── styles/
+│── css/
 │   ├── main.css        # Base styles for all devices
 │   ├── desktop.css     # Desktop-specific styles (≥1024px)
 │   └── themes.css      # Theme-related styles
-└── scripts/
+└── js/
     └── main.js         # Core application logic
 ```
 
@@ -29,7 +29,7 @@ svg-viewer/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/svg-viewer.git
+   git clone https://github.com/ferhatgnlts/SVG-Editor.git
    cd svg-viewer
    ```
 
@@ -46,19 +46,19 @@ svg-viewer/
 ## Customization
 
 ### Themes
-Edit `styles/themes.css` to customize:
+Edit `css/themes.css` to customize:
 - Color schemes
 - Dark/light mode transitions
 - Element-specific theme styles
 
 ### Grid System
-Modify these aspects in `styles/main.css`:
+Modify these aspects in `css/main.css`:
 - Grid line color and thickness
 - Preview area sizing
 - Responsive breakpoints
 
 ### Desktop Layout
-Adjust desktop-specific styles in `styles/desktop.css`:
+Adjust desktop-specific styles in `css/desktop.css`:
 - Sidebar width and positioning
 - Button arrangement
 - Editor panel sizing
